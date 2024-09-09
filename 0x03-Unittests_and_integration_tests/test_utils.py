@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""A module for testing the utils module.
+""" A module for testing the utils module.
 """
 import unittest
 from typing import Dict, Tuple, Union
@@ -81,4 +81,4 @@ class TestMemoize(unittest.TestCase):
             test_class = TestClass()
             self.assertEqual(test_class.a_property(), 42)
             self.assertEqual(test_class.a_property(), 42)
-            memo_fxn.assert_called_once()s
+            memo_fxn.assert_called_once()
